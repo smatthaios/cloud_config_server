@@ -1,0 +1,10 @@
+# Spring properties
+spring:
+  application:
+     name: agora
+
+# HTTP Server
+server:
+  port: 8082   # HTTP (Tomcat) port
+  context-path: /
+  servlet-path: /api
